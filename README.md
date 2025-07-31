@@ -44,16 +44,16 @@ It provides endpoints for:
 ## ⚙️ Installation
 
 # Clone the repo
-git clone https://github.com/frau-azadeh/RebarPriceAnalysis.git
-cd RebarPriceAnalysis
+    git clone https://github.com/frau-azadeh/RebarPriceAnalysis.git
+    cd RebarPriceAnalysis
 
 # Create venv and install dependencies
-python -m venv venv
-source venv/bin/activate  # or venv\Scripts\activate on Windows
-pip install -r requirements.txt
+    python -m venv venv
+    source venv/bin/activate  # or venv\Scripts\activate on Windows
+    pip install -r requirements.txt
 
 # Run FastAPI server
-uvicorn main:app --reload
+    uvicorn main:app --reload
 
 ---
 
