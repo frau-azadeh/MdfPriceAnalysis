@@ -170,7 +170,7 @@ def forecast_prices():
         for i in range(1, 7):
             daily_forecast.append({
                 "date": future_jalali(i),
-                "type": "A3",
+                "type": "183*366",
                 "size": 16,
                 "predictedPrice": int(base_price * (1 + (0.005 * i)))
             })
@@ -180,7 +180,7 @@ def forecast_prices():
         for i in range(7, 29, 7):
             weekly_forecast.append({
                 "date": future_jalali(i),
-                "type": "A3",
+                "type": "183*366",
                 "size": 16,
                 "predictedPrice": int(base_price * (1 + (0.01 * i / 7)))
             })
@@ -190,7 +190,7 @@ def forecast_prices():
         for i in range(30, 121, 30):
             monthly_forecast.append({
                 "date": future_jalali(i),
-                "type": "A3",
+                "type": "183*366",
                 "size": 16,
                 "predictedPrice": int(base_price * (1 + (0.02 * i / 30)))
             })
