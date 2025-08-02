@@ -1,4 +1,4 @@
-# 📊 Rebar Price Analysis
+# 📊 MDF Price Analysis
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
 ![FastAPI](https://img.shields.io/badge/FastAPI-API-green?logo=fastapi)
@@ -6,7 +6,7 @@
 ![License](https://img.shields.io/badge/License-MIT-orange)
 
 ## 🚀 Overview
-Rebar Price Analysis is a **data processing and analysis service** designed to fetch, clean, and analyze rebar product data from an external API.  
+Mdf Price Analysis is a **data processing and analysis service** designed to fetch, clean, and analyze rebar product data from an external API.  
 It provides endpoints for:
 - Price trend analysis  
 - Latest price summaries  
@@ -44,7 +44,7 @@ It provides endpoints for:
 ## ⚙️ Installation
 
 # Clone the repo
-    git clone https://github.com/frau-azadeh/RebarPriceAnalysis.git
+    git clone https://github.com/frau-azadeh/MdfPriceAnalysis.git
     cd RebarPriceAnalysis
 
 # Create venv and install dependencies
