@@ -45,7 +45,7 @@ It provides endpoints for:
 
 # Clone the repo
     git clone https://github.com/frau-azadeh/MdfPriceAnalysis.git
-    cd RebarPriceAnalysis
+    cd MdfPriceAnalysis
 
 # Create venv and install dependencies
     python -m venv venv
